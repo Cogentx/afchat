@@ -1,0 +1,21 @@
+{
+  "name": "afchat",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0"
+  },
+  "main": "bundles/afchat.umd.js",
+  "module": "fesm5/afchat.js",
+  "es2015": "fesm2015/afchat.js",
+  "esm5": "esm5/afchat.js",
+  "esm2015": "esm2015/afchat.js",
+  "fesm5": "fesm5/afchat.js",
+  "fesm2015": "fesm2015/afchat.js",
+  "typings": "afchat.d.ts",
+  "metadata": "afchat.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
