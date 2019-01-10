@@ -6,7 +6,27 @@ Pluggable Chat Module for Angular Web apps as an Angular Library.
 
 ### Installation
 
+Run `firebase use <project id>` to switch to using your own Firebase project.
+Set your Firebase project settings in the `environment` file. Your Firebase project must have Firestore, Auth and Hosting enabled.
+
+#### NPM
+
+Run `npm run deploy` to automatically deploy the project to Firebase.
+
+#### Yarn
+
+If you're using Yarn, the deployment command is `yarn run deploy`.
+
 ### Firebase Configuration
+
+Your Firebase project must have Firestore, Auth and Hosting enabled.
+You may run `firebase init` if you'd like to reconfigure the Firebase project settings, otherwise a `firebase use <project id>` should do the trick.
+
+If you are part of the core development team, the Firebase access credentials have already been shared with you, but this is for our shared development environment. You may use your own Firebase project for development.
+
+## BrowserStack
+
+A big shoutout and thanks to the kind folks over at [BrowserStack](https://www.browserstack.com/) for letting us register as a non-profit and use their testing suite free of charge! If you're an open source project, head over to their site to get free access to their automated and manual testing suite!
 
 ### AfChatModule
 
@@ -49,6 +69,10 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## BrowserStack Usability Testing
+
+Using Automate to automatically test afchat.
 
 ## Further help
 
