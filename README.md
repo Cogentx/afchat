@@ -25,6 +25,7 @@ You may run `firebase init` if you'd like to reconfigure the Firebase project se
 If you are part of the core development team, the Firebase access credentials have already been shared with you, but this is for our shared development environment. You may use your own Firebase project for development.
 
 ## BrowserStack
+![BrowserStack](https://raw.githubusercontent.com/afchat/afchat/master/img/Browserstack-logo%402x.png)
 
 A big shoutout and thanks to the kind folks over at [BrowserStack](https://www.browserstack.com/) for letting us register as a non-profit and use their testing suite free of charge! If you're an open source project, head over to their site to get free access to their automated and manual testing suite!
 
