@@ -1,20 +1,20 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],{
 
 /***/ "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/sass-loader/lib/loader.js?!./src/styles.scss":
-/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** /Users/prasannaneelavar/Documents/projects/OtherProjects/afchat/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!/Users/prasannaneelavar/Documents/projects/OtherProjects/afchat/node_modules/postcss-loader/src??embedded!/Users/prasannaneelavar/Documents/projects/OtherProjects/afchat/node_modules/sass-loader/lib/loader.js??ref--14-3!./src/styles.scss ***!
-  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** /Users/george/repos/afchat/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!/Users/george/repos/afchat/node_modules/postcss-loader/src??embedded!/Users/george/repos/afchat/node_modules/sass-loader/lib/loader.js??ref--14-3!./src/styles.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9wcmFzYW5uYW5lZWxhdmFyL0RvY3VtZW50cy9wcm9qZWN0cy9PdGhlclByb2plY3RzL2FmY2hhdC9wcm9qZWN0cy9hZmNoYXQtZGVtby9zcmMvc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsK0VBQStFIiwiZmlsZSI6InByb2plY3RzL2FmY2hhdC1kZW1vL3NyYy9zdHlsZXMuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9nZW9yZ2UvcmVwb3MvYWZjaGF0L3Byb2plY3RzL2FmY2hhdC1kZW1vL3NyYy9zdHlsZXMuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwrRUFBK0UiLCJmaWxlIjoicHJvamVjdHMvYWZjaGF0LWRlbW8vc3JjL3N0eWxlcy5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuIl19 */", '', '']]
 
 /***/ }),
 
 /***/ "../../node_modules/style-loader/lib/addStyles.js":
-/*!******************************************************************************************************************!*\
-  !*** /Users/prasannaneelavar/Documents/projects/OtherProjects/afchat/node_modules/style-loader/lib/addStyles.js ***!
-  \******************************************************************************************************************/
+/*!*****************************************************************************!*\
+  !*** /Users/george/repos/afchat/node_modules/style-loader/lib/addStyles.js ***!
+  \*****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -272,7 +272,9 @@ function addStyle (obj, options) {
 
 	// If a transform function was defined, run it on the css
 	if (options.transform && obj.css) {
-	    result = options.transform(obj.css);
+	    result = typeof options.transform === 'function'
+		 ? options.transform(obj.css) 
+		 : options.transform.default(obj.css);
 
 	    if (result) {
 	    	// If transform returns a value, use that instead of the original css.
@@ -419,9 +421,9 @@ function updateLink (link, options, obj) {
 /***/ }),
 
 /***/ "../../node_modules/style-loader/lib/urls.js":
-/*!*************************************************************************************************************!*\
-  !*** /Users/prasannaneelavar/Documents/projects/OtherProjects/afchat/node_modules/style-loader/lib/urls.js ***!
-  \*************************************************************************************************************/
+/*!************************************************************************!*\
+  !*** /Users/george/repos/afchat/node_modules/style-loader/lib/urls.js ***!
+  \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -555,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/prasannaneelavar/Documents/projects/OtherProjects/afchat/projects/afchat-demo/src/styles.scss */"./src/styles.scss");
+module.exports = __webpack_require__(/*! /Users/george/repos/afchat/projects/afchat-demo/src/styles.scss */"./src/styles.scss");
 
 
 /***/ })
